@@ -5,7 +5,8 @@
   "scripts": {
     "start": "npx expo start --port 3000 --tunnel",
     "start-web": "npx expo start --port 3000 --web --tunnel",
-    "start-web-dev": "DEBUG=expo* npx expo start --port 3000 --web --tunnel"
+    "start-web-dev": "DEBUG=expo* npx expo start --port 3000 --web --tunnel",
+    "build:web": "npx expo export:web"
   },
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
